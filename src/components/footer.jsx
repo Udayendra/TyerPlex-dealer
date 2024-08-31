@@ -6,10 +6,10 @@ import instagram from "../img/instagram.png";
 
 const Footer = () => {
   return (
-    <div className="p-4 mx-auto my-5 border rounded max-w-7xl">
+    <div className="p-4 mx-5 md:mx-16  my-5 border rounded max-w-7xl">
       <div className="flex flex-col sm:flex-row sm:justify-between">
-        <div className="mb-4 sm:mb-0">
-          <div className="p-4">
+        <div className="mb-4 sm:mb-0 flex items-center flex-col">
+          <div className="p-4 ">
             <img src={logo} alt="Logo" className="h-8" />
           </div>
           <div className="flex space-x-3 p-4">

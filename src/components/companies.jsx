@@ -16,7 +16,7 @@ const TireCompanies = [
 
 const Card = ({ name, logo }) => {
   return (
-    <div className="carousel-item flex flex-col w-1/5  items-center mb-2 rounded bg-white p-3 border-[1px] shadow-[0_1px_4px_0_rgba(0,0,0,0.16)] cursor-pointer">
+    <div className="carousel-item flex flex-col w-1/5 items-center m-2 rounded bg-white p-3 border-[1px] shadow-[0_1px_4px_0_rgba(0,0,0,0.16)] cursor-pointer hover:scale-105">
       <img
         src={logo}
         alt=""
@@ -28,7 +28,7 @@ const Card = ({ name, logo }) => {
 };
 
 const Carousal = () => (
-  <div className="p-2 mx-16 my-5 shadow-[0_1px_4px_0_rgba(0,0,0,0.16)] overflow-hidden">
+  <div className="p-2 mx-5 md:mx-16 my-5 shadow-[0_1px_4px_0_rgba(0,0,0,0.16)] overflow-hidden">
     <h1 className="text-black font-semibold text-[20px]">Deals in</h1>
     <div className="carousel carousel-center space-x-4  my-4">
       {TireCompanies.map((company, index) => (
